@@ -17,6 +17,7 @@ $( document ).ready(function() {
                 <td>${data[d].phone}</td>
             </tr>`
             //$(`#data-table tr:last`).after(dataStr)
+            loadData()
         }
 
         console.log(customers)
